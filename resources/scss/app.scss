@@ -1,4 +1,25 @@
 @use './partials/variables' as *;
+@use './partials/header';
+@use './partials/comics';
+
 
 @import '~bootstrap/scss/bootstrap';
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    width: 100%;
+}
